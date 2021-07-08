@@ -8,7 +8,7 @@ A collection of resources on Human Pose Estimation.
 
 ## Why awesome human pose estimation?
 
-This is a collection of papers and resources I curated when learning the ropes in Human Pose estimation. I will be continuously updating this list with the latest papers and resources. I will also be adding a detailed wiki that covers the basics of human pose estimation soon.
+This is a collection of papers and resources I curated when learning the ropes in Human Pose estimation. I will be continuously updating this list with the latest papers and resources. If you want to learn the basics of Human Pose Estimation and understand how the field has evolved, check out these articles I published on [2D Pose Estimation](https://blog.nanonets.com/human-pose-estimation-2d-guide/?utm_source=github&utm_medium=social&utm_campaign=pose&utm_content=cbsudux) and [3D Pose Estimation](https://blog.nanonets.com/human-pose-estimation-3d-guide/)
 
 ## Contributing
 
@@ -17,6 +17,7 @@ If you think I have missed out on something (or) have any suggestions (papers, i
 Feedback and contributions are welcome!
 
 ## Table of Contents
+- [Basics](#basics)
 - [Papers](#papers)
   - [2D Pose estimation](#2d-pose-estimation)
   - [3D Pose estimation](#3d-pose-estimation)
@@ -30,6 +31,9 @@ Feedback and contributions are welcome!
   - [TensorFlow](#tensorflow)
   - [Torch](#Torch)
   - [Others](#others)
+
+## Basics
+- [A 2019 guide to Human Pose Estimation with Deep Learning](https://blog.nanonets.com/human-pose-estimation-2d-guide/?utm_source=reddit&utm_medium=social&utm_campaign=pose&utm_content=GROUP_NAME)
 
 
 ## Papers
@@ -58,7 +62,12 @@ Feedback and contributions are welcome!
 - [Knowledge-Guided Deep Fractal Neural Networks for Human Pose Estimation](https://arxiv.org/pdf/1705.02407.pdf) - [[CODE]](https://github.com/Guanghan/GNet-pose) Ning, G., Zhang, Z., & He, Z. (IEEE Transactions on Multimedia 2018)
 - [Human Pose Estimation with Parsing Induced Learner](http://openaccess.thecvf.com/content_cvpr_2018/papers/Nie_Human_Pose_Estimation_CVPR_2018_paper.pdf)- Xuecheng Nie, Jiashi Feng, Yiming Zuo, Shuicheng Yan (CVPR 2018)
 - [LSTM Pose Machines](https://arxiv.org/pdf/1712.06316.pdf) - [[CODE]](https://github.com/lawy623/LSTM_Pose_Machines) - Yue Luo, Jimmy Ren, Zhouxia Wang, Wenxiu Sun, Jinshan Pan, Jianbo Liu, Jiahao Pang, Liang Lin (CVPR 2018)
-
+- [Simple Baselines for Human Pose Estimation
+and Tracking](http://openaccess.thecvf.com/content_ECCV_2018/papers/Bin_Xiao_Simple_Baselines_for_ECCV_2018_paper.pdf) - [[CODE]](https://github.com/Microsoft/human-pose-estimation.pytorch) - Bin, Xiao, Haiping Wu, Yichen Wei (ECCV 2018)
+- [Multi-Scale Structure-Aware Network for Human Pose Estimation](http://openaccess.thecvf.com/content_ECCV_2018/papers/Lipeng_Ke_Multi-Scale_Structure-Aware_Network_ECCV_2018_paper.pdf) - Lipeng Ke, Ming-Ching Chang, Honggang Qi, Siwei Lyu (ECCV 2018)
+- [Deeply Learned Compositional Models for Human Pose Estimation](http://openaccess.thecvf.com/content_ECCV_2018/papers/Wei_Tang_Deeply_Learned_Compositional_ECCV_2018_paper.pdf) - Wei Tang, Pei Yu, Ying Wu (ECCV 2018)
+- [Real-time 2D Multi-Person Pose Estimation on CPU: Lightweight OpenPose](https://arxiv.org/pdf/1811.12004.pdf) - [[CODE]](https://github.com/Daniil-Osokin/lightweight-human-pose-estimation.pytorch) Osokin, D. (ArXiv 2018)
+- [Deep High-Resolution Representation Learning for Human Pose Estimation](https://arxiv.org/abs/1902.09212) - [[CODE]](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch) Ke Sun, Bin Xiao, Dong Liu, Jingdong Wang (CVPR 2019)
 
 ### 3D Pose estimation
 
@@ -73,6 +82,7 @@ Feedback and contributions are welcome!
 - [Compositional Human Pose Regression](https://arxiv.org/pdf/1704.00159.pdf) - Sun, X., Shang, J., Liang, S., & Wei, Y. (ICCV 2017)
 - [Monocular 3D Human Pose Estimation In The Wild Using Improved CNN Supervision](http://gvv.mpi-inf.mpg.de/3dhp-dataset/) - Mehta, D., Rhodin, H., Casas, D., Fua, P., Sotnychenko, O., Xu, W., & Theobalt, C. (3DV 2017)
 - [3D Human Pose Estimation in the Wild by Adversarial Learning](https://arxiv.org/pdf/1803.09722.pdf) - Yang, W., Ouyang, W., Wang, X., Ren, J.S., Li, H., & Wang, X. (2018)
+- [DRPose3D: Depth Ranking in 3D Human Pose Estimation](https://arxiv.org/pdf/1805.08973.pdf) - Wang, M., Chen, X., Liu, W., Qian, C., Lin, L., & Ma, L. (IJCAI 2018)
 - [End-to-end Recovery of Human Shape and Pose](https://arxiv.org/pdf/1712.06584.pdf) - [[CODE]](https://github.com/akanazawa/hmr) - Kanazawa, A., Black, M.J., Jacobs, D.W., & Malik, J. (CVPR 2018)
 - [Learning to Estimate 3D Human Pose and Shape from a Single Color Image](http://openaccess.thecvf.com/content_cvpr_2018/papers/Pavlakos_Learning_to_Estimate_CVPR_2018_paper.pdf) - Pavlakos, G., Zhu, L., Zhou, X., & Daniilidis, K. (CVPR 2018)
 - [Dense Human Pose Estimation In The Wild](https://arxiv.org/pdf/1802.00434.pdf) - [[CODE]](https://github.com/facebookresearch/Densepose) - Guler, R.A., Neverova, N., & Kokkinos, I. (ArXiv 2018)
@@ -82,6 +92,10 @@ Feedback and contributions are welcome!
 - [Dense Pose Transfer](https://arxiv.org/pdf/1809.01995.pdf) - Neverova, N., Guler, R.A., & Kokkinos, I. (ECCV 2018)
 - [Unsupervised Geometry-Aware Representation for 3D Human Pose Estimation](http://openaccess.thecvf.com/content_ECCV_2018/papers/Helge_Rhodin_Unsupervised_Geometry-Aware_Representation_ECCV_2018_paper.pdf) - [[CODE]](https://github.com/hrhodin/UnsupervisedGeometryAwareRepresentationLearning) - Rhodin, H., Salzmann, M., & Fua, P. (ECCV 2018)
 - [BodyNet: Volumetric Inference of 3D Human Body Shapes](https://arxiv.org/pdf/1804.04875v3.pdf) - [[CODE]](https://github.com/gulvarol/bodynet) - Varol, G., Ceylan, D., Russell, B., Yang, J., Yumer, E., Laptev, I., & Schmid, C. (ECCV 2018)
+- [3D human pose estimation in video with temporal convolutions and
+semi-supervised training](https://arxiv.org/pdf/1811.11742.pdf) - [[CODE]](https://github.com/facebookresearch/VideoPose3D) - Pavllo, D., Feichtenhofer, C., Grangier, D., & Auli, M (ArXiv 2018)
+- [Single-Shot Multi-Person 3D Pose Estimation From Monocular RGB](https://arxiv.org/pdf/1712.03453.pdf) - [[CODE1]](http://gvv.mpi-inf.mpg.de/projects/SingleShotMultiPerson/)[[CODE2]](https://github.com/Daniil-Osokin/lightweight-human-pose-estimation-3d-demo.pytorch) - Mehta, D.,  Sotnychenko, O., Mueller, F., Xu, W., Sridhar, S., Pons-Moll, G., Theobalt, C. (3DV 2018)
+
 
 ### Person generation
 
@@ -97,6 +111,10 @@ Feedback and contributions are welcome!
 - [VNect: Real-time 3D Human Pose Estimation with a Single RGB Camera](http://gvv.mpi-inf.mpg.de/projects/VNect/content/VNect_SIGGRAPH2017.pdf) - [[CODE]](https://github.com/timctho/VNect-tensorflow) - Mehta, Dushyant et al. (SIGGRAPH 2017)
 - [RMPE: Regional Multi-person Pose Estimation](https://arxiv.org/pdf/1612.00137.pdf) - [[CODE1]](https://github.com/Fang-Haoshu/RMPE)[[CODE2]](https://github.com/MVIG-SJTU/AlphaPose) - Fang, H., Xie, S., & Lu, C. (ICCV 2017)
 - [Dense Human Pose Estimation In The Wild](https://arxiv.org/pdf/1802.00434.pdf) - [[CODE]](https://github.com/facebookresearch/Densepose) - Guler, R.A., Neverova, N., & Kokkinos, I. (ArXiv 2018)
+- [Real-time 2D Multi-Person Pose Estimation on CPU: Lightweight OpenPose](https://arxiv.org/pdf/1811.12004.pdf) - [[CODE]](https://github.com/Daniil-Osokin/lightweight-human-pose-estimation.pytorch) Osokin, D. (ArXiv 2018)
+  - Extension to 3D pose estimation (based on [Single-Shot Multi-Person 3D Pose Estimation From Monocular RGB](https://arxiv.org/pdf/1712.03453.pdf) - Mehta, D., et al.) - [[CODE]](https://github.com/Daniil-Osokin/lightweight-human-pose-estimation-3d-demo.pytorch)
+
+
 
 
 ## Datasets
@@ -128,9 +146,12 @@ Feedback and contributions are welcome!
 
 ### PyTorch
 - [pytorch-pose-hg-3d](https://github.com/xingyizhou/Pytorch-pose-hg-3d)
+- [3d_pose_baseline_pytorch](https://github.com/weigq/3d_pose_baseline_pytorch)
 - [pytorch_Realtime_Multi-Person_Pose_Estimation](https://github.com/tensorboy/pytorch_Realtime_Multi-Person_Pose_Estimation)
 - [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose/tree/pytorch)
 - [pytorch-pose](https://github.com/bearpaw/pytorch-pose)
+- [human-pose-estimation.pytorch](https://github.com/Microsoft/human-pose-estimation.pytorch)
+- [deep-high-resolution-net.pytorch](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch)
 
 ### TensorFlow
 
@@ -146,6 +167,14 @@ Feedback and contributions are welcome!
 
 - [openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
 - [DensePose](https://github.com/facebookresearch/DensePose)
+
+## Todo
+
+- [x] Add basics
+- [ ] Add papers on Person Re-Identification
+- [ ] Add papers on Multi Person Pose estimation
+- [ ] Add a SOTA ranking
+
 ## License
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
